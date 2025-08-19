@@ -1,0 +1,84 @@
+base_info:
+  primary_color: "#0066cc"
+  title: zhiyuan.zhou's Blog
+  author: zhiyuan.zhou
+  avatar: /images/hano.jpg
+  logo: /images/hano.jpg
+  favicon: /images/hano.jpg
+
+menu:
+  home: /
+  archives: /archives
+  about: /about
+
+first_screen:
+  enable: true # Option values: true | false
+  background_img: /images/bg.svg
+  background_img_dark: /images/bg.svg
+  description: Hi, I'm Zhiyuan Zhou, a software engineer working on cloud monitoring. || Welcome to my blog!
+  hitokoto: false # Option values: true | false
+
+social_contact:
+  enable: true # Option values: true | false
+  links:
+    github: https://github.com/SilenceAdele # GitHub
+    email: zzy_ahut@163.com # Email
+
+home:
+  announcement: "zhiyuan.zhou's personal blog is officially launched!"
+  category: true # Option values: true | false
+  tag: true # Option values: true | false
+  post_datetime: updated # Option values: updated | created
+  post_datetime_format: ago # Option values: ago | YYYY-MM-DD HH:mm:ss
+
+post:
+  author_badge:
+    enable: true
+    level_badge: false
+    custom_badge: "Cloud-Native Observability Development Engineer"
+
+  word_count:
+    wordcount: true # Word count, one article. Option values: true | false
+    min2read: false # Time to read, one article. Option values: true | false
+
+  datetime_format: "YYYY-MM-DD HH:mm:ss" # Datetime format. e.g. "YYYY-MM-DD HH:mm:ss"
+
+  copyright_info: true # Option values: true | false
+
+  share: true # Option values: true | false
+  
+code_block:
+  tools:
+    enable: true # Option values: true | false
+    style: mac # Option values: default | mac
+  highlight_theme: obsidian # Option values: default | obsidian
+
+toc:
+  enable: true # Option values: true | false
+  number: false # Option values: true | false
+  expand_all: true # Option values: true | false
+  init_open: true # Option values: true | false
+  layout: right # Option values: left | right
+
+website_count:
+  busuanzi_count:
+    enable: true # Option values: true | false
+    site_uv: false # Option values: true | false
+    site_pv: false # Option values: true | false
+    page_pv: true  # Option values: true | false
+
+local_search:
+  enable: true # Option values: true | false
+  preload: true # Preload the search data when the page loads
+
+pjax:
+  enable: true # Option values: true | false
+
+footer:
+  since: 2025 # The starting year of your website, Can be null
+  word_count: false # Option values: true | false
+
+  site_deploy:
+    enable: true # Option values: true | false
+    provider: github # Option values: github | vercel | netlify | cloudflare | gitee | aliyun | tencent_cloud | upyun
+    url: # Your deployment provider url, Can be null
